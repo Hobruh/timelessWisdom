@@ -1,0 +1,88 @@
+body {
+    margin-top: 630px;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("Resources/Images/cosmicYogi.jfif");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (min-width: 600px) and (min-height: 600px) {
+    body {
+      margin-top: 300px;
+    }
+  }
+  
+  @media (min-width: 800px) and (min-height: 800px) {
+    body {
+      margin-top: 200px;
+    }
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ #heading {
+    margin-top: -200px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border-top: solid black 2px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    z-index: 1;
+    height: 70px;
+    width: 40%;
+    margin-left: 550px;
+    border-radius: 5px;
+  }
+  p {
+    padding-top: 10px;
+    font-weight: bold;
+    border: solid 2px black;
+    height: 30px;
+    margin-top: -11px;
+    background-color: purple;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+#imgElement {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    z-index: 2; /* Ensure image is above other elements */
+  }
+  
+.message-container {
+    margin-bottom: 20px; /* Use margin-bottom instead of margin-top */
+    font-size: 18px;
+    color: #fff;
+    z-index: 1; /* Adjust z-index if needed */
+    border: black solid 2px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+.generate-button {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3; /* Ensure button is above other elements */
+  }
+.description {
+    color: white;
+}
