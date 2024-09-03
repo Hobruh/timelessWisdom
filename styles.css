@@ -36,6 +36,9 @@ body {
 
     .generate-button {
         top: 800px; /* Adjust top position for smaller screens */
+        width: 300px;
+        height: 100px;
+        font-size: 24px;
     }
 }
   .container {
@@ -55,7 +58,7 @@ body {
     z-index: 1;
     height: 70px;
     width: 40%;
-    margin-left: 550px;
+    margin-left: 500px;
     border-radius: 5px;
   }
   p {
